@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+    border-width: 0px;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+}
+@font-face{
+    font-family: 'spider';
+    src: url(../Assets/Far-From Homecoming Updated.otf);
+}
+a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+a:hover{
+    font-weight: bolder;
+}
+header{
+    background: var(--rouge);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    width: 40%;
+}
+.logo_marvel{
+    max-width: 100%;
+}
+h1{
+    font-family: 'Far From Homecoming';
+    font-weight: lighter;
+
+}
+.corps{
+    background: url(../Illustration/img35.png);
+    background-position: 0px -185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--blanc);
+    padding: 17% 0% 4% 16%;
+    display: flex;
+    flex-direction: column;
+}
+.contenu1{
+    color: var(--blanc);
+    background: url(../Illustration/img7.png) no-repeat;
+    background-size: cover;
+}
+.contenu1 div{
+    display: flex;
+    flex-direction: column;
+    padding: 18%;
+    
+}
+.corps h1{
+    font-size: 4.5rem;
+    padding: 5% 0 4% 0;
+}
+footer{
+    background: var(--noir);
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 12% 0 6%;
+}
+footer .premier-ligne .lien1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+footer .premier-ligne .lien2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 12%;
+}
+footer .premier-ligne figure img{
+    vertical-align: middle;
+    margin: 0 2.5px 0 2.5px;
+}
+footer .premier-ligne select{
+    background: var(--rouge);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 160%;
+    padding: 2.5%;
+}
+footer .deuxieme-ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5% 0 0 0;
+}
+footer .deuxieme-ligne figure{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+footer .deuxieme-ligne img{
+    background: var(--rouge);
+    border-radius: 17px;
+    max-width: 20%;
+    padding: 3%;
+}
+footer .troixieme-ligne{
+    text-align: center;
+    color: var(--blanc);
+    opacity: 0.6;
+    padding: 2.5% 0 2.5% 0;
+}

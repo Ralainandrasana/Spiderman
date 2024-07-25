@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+    border-width: 0px;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+}
+@font-face{
+    font-family: 'spider';
+    src: url("../Far-From\ Homecoming\ Updated.otf");
+}
+
+/* HEADER */
+header figure, header ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header{
+    background: var(--jaune);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    padding: 10px 0px 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header .nav{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+header a, footer a{
+    text-decoration: none;
+    color: var(--blanc);
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+}
+/* HEADER */
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: 'spider';
+    font-weight: lighter;
+}
+.contenu1{
+    color: var(--blanc);
+    background: url(../Illustration/img7.png) no-repeat;
+    background-size: cover;
+}
+.wrap-contenu1{
+    display: flex;
+    flex-direction: column;
+    padding: 8% 11% 2% 11%;
+}
+.contenu1 .wrap-contenu1{
+    display: flex;
+    flex-direction: column;
+    padding: 18%;
+    
+}
+.contenu1 .title1{
+    font-size: 45px;
+    margin-top: 8%;
+    font-family: 'spider';
+    font-weight: lighter;
+}
+.contenu1 .logo{
+    display: none;
+}
+.contenu2{
+    background: var(--jaune);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contenu2 .row{
+    display: flex;
+    justify-content: center;
+}
+.contenu2 img{
+    width: 100%;
+}
+::placeholder{
+    color: white;
+}
+.contenu2 .paragraphe{
+    border: 10px solid rgb(37, 34, 34);
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2% 0 1% 5%;
+}
+.contenu2 figure {
+    max-width: 100%;
+    padding: 30px;
+}
+.contenu2 h3{
+    margin: 5% 0 7% 0;
+    text-align: center;
+}
+footer{
+    background: var(--noir);
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 12% 0 6%;
+}
+footer .premier-ligne .lien1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+footer .premier-ligne .lien2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 12%;
+}
+footer .premier-ligne figure img{
+    vertical-align: middle;
+    margin: 0 2.5px 0 2.5px;
+}
+footer .premier-ligne select{
+    background: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 160%;
+    padding: 2.5%;
+}
+footer .deuxieme-ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5% 0 0 0;
+}
+footer .deuxieme-ligne figure{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+footer .deuxieme-ligne img{
+    background: var(--jaune);
+    border-radius: 17px;
+    max-width: 20%;
+    padding: 3%;
+}
+footer .troixieme-ligne{
+    text-align: center;
+    color: var(--blanc);
+    opacity: 0.6;
+    padding: 2.5% 0 2.5% 0;
+}
+
+@media  only screen and ( max-width: 768px) { 
+    /* HEADER */
+    .logo{
+        display: none;
+    } 
+    header {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    header .nav{
+        width: 300px;
+        margin-right: 0;
+
+    }
+    ul {
+        width: 100%;
+    }
+    .figures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap-contenu1 .logo{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    li {
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+/* HEADER */
+/* CONTENU1 */
+.contenu1 {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px 70px 20px;
+    background-size: 100% 100%;
+}
+.contenu1 .title1 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+.contenu1 .wrap-contenu1 {
+    display: flex;
+    flex-direction: column; 
+    padding: 0;
+}
+.wrap-contenu1 .logo_marvel{
+    width: 100px;
+}
+.wrap-contenu1 .x{
+    width: 10px;
+}
+.wrap-contenu1 .sayna{
+    width: 25px;
+}
+.contenu1 h3 {
+    display: none;
+}
+.contenu1 .title2 {
+    font-weight: lighter;
+    padding-top: 100px;
+    font-size: 15px;
+}
+.contenu1 .logo{
+    display: block;
+}
+.contenu1 .wrap-contenu1 h1 + h3 {
+    display: block;
+    font-size: 15px;
+}
+
+/* CONTENU1 */
+/* FOOTER */
+footer figure{
+    display: none;
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+}
+footer .premier-ligne .lien1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    width: 40%;
+} 
+footer .premier-ligne .lien2 {
+    display: none;
+} 
+footer .premier-ligne select {
+    background: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+}
+footer .deuxieme-ligne figure {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+/* FOOTER */
+}
